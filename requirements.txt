@@ -1,13 +1,13 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 # platform: win-64
-nltk=3.7=pyhd3eb1b0_0
-numpy=1.23.3=py310h60c9a35_0
-pandas=1.4.4=py310hd77b12b_0
-python=3.10.6=hbb2ffb3_1
-regex=2022.7.9=py310h2bbff1b_0
-requests=2.28.1=py310haa95532_0
-scikit-learn=1.1.3=py310hd77b12b_0
-scikit-surprise=1.1.3=py310h9b08ddd_1
-streamlit=1.11.0=py310haa95532_0
+nltk=3.7
+numpy=1.23.3
+pandas=1.4.4
+python=3.10.6
+regex=2022.7.9
+requests=2.28.1
+scikit-learn=1.1.3
+scikit-surprise=1.1.3
+streamlit=1.11.0
 
