@@ -1,5 +1,6 @@
 import streamlit as st
-
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 import pickle
 import pandas as pd
 import requests
@@ -9,6 +10,11 @@ similarity = pickle.load(open('cosine_sim.pkl', 'rb'))
 
 movies_ = movies.reset_index()
 indices = pd.Series(movies_.index, index=movies_['title'])
+
+tfidf = TfidfVectorizer(stop_words='english')
+tfidf_matrix = tfidf.fit_transform(movies_['soup'])
+
+cosine_sim = cosine_similarity(tfidf_matrix)
 
 st.title('Movie Recommender System')
 
