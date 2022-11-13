@@ -54,3 +54,5 @@ It is a common approach to match similar documents is based on counting the maxi
 Cosine similarity is a metric used to determine how similar the documents are irrespective of their size.
 Mathematically, Cosine similarity measures the cosine of the angle between two vectors projected in a multi-dimensional space.
 In this context, the two vectors I am talking about are arrays containing the word counts of two documents.
+
+![alt text](https://www.machinelearningplus.com/wp-content/uploads/2018/10/soft-cosine-1024x489.png)
