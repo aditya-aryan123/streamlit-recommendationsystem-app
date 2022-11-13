@@ -7,7 +7,7 @@ Check out the live demo: https://aditya-aryan123-streamlit-recommendationsystem-
 
 ## Screenshot of the project
 
-![ScreenShot](E:/Projects For Resume/Movie Recommendation System/Screenshot1.png)
+![ScreenShot](E:\Projects For Resume\Movie Recommendation System\Screenshot1.png)
 
 ![ScreenShot](E:/Projects For Resume/Movie Recommendation System/Screenshot2.png)
 
