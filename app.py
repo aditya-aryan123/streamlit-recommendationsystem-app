@@ -1,5 +1,4 @@
 import streamlit as st
-import sklearn
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import pickle
@@ -7,7 +6,6 @@ import pandas as pd
 import requests
 
 movies = pd.read_csv('data.csv')
-similarity = pickle.load(open('cosine_sim.pkl', 'rb'))
 
 movies_ = movies.reset_index()
 indices = pd.Series(movies_.index, index=movies_['title'])
@@ -31,7 +29,7 @@ def fetch_poster(movie_id):
 
 def content_recommender(movie):
     movie_index = movies_[movies_['title'] == movie].index[0]
-    distances = similarity[movie_index]
+    distances = cosine_sim[movie_index]
     movies_list = sorted(list(enumerate(distances)), reverse=True, key=lambda x: x[1])[1:6]
     recommended_movies = []
     recommended_movie_posters = []
