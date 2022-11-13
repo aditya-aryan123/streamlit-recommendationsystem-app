@@ -31,7 +31,7 @@ TF-IDF stands for term frequency-inverse document frequency and it is a measure 
 ## How TF-IDF Vectorizer works?
 
 Term frequency works by looking at the frequency of a particular term in a document. Inverse document frequency looks at how common (or uncommon) a word is amongst the corpus. IDF is calculated as follows where t is the term (word) we are looking to measure the commonness of and N is the number of documents (d) in the corpus (D).. The denominator is simply the number of documents in which the term, t, appears in. 
-![alt text](https://monkeylearn.com/blog/what-is-tf-idf/)
+![alt text](https://ecm.capitalone.com/WCM/tech/tf-idf-1.png)
 
 The reason we need IDF is to help correct for words like “of”, “as”, “the”, etc. since they appear frequently in an English corpus. Thus by taking inverse document frequency, we can minimize the weighting of frequent terms while making infrequent terms have a higher impact.
 
