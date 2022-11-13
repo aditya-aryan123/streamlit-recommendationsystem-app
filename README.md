@@ -5,6 +5,13 @@ Recommendation system that recommends movies similar to those the user likes bas
 Check out the live demo: https://aditya-aryan123-streamlit-recommendationsystem-app-app-w4qqhu.streamlit.app/
 
 
+## Screenshot of the project
+
+![ScreenShot](E:/Projects For Resume/Movie Recommendation System/Screenshot1.png)
+
+![ScreenShot](E:/Projects For Resume/Movie Recommendation System/Screenshot2.png)
+
+
 ## Overview
 
 The movies are recommended based on the content of the movie you entered or selected. The main parameters that are considered for the recommendations are the genre, overview of the movie, top 10 casts, director, production companies, production countries, tagline, keywords and producer. The details of the movies, such as title, genre, runtime, rating, poster, casts, etc., are fetched from TMDB.
