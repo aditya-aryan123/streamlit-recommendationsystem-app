@@ -1,6 +1,6 @@
 # Movie Recommendation System using Streamlit
 
-Recommendation system that recommends movies similar to those the user likes based on content.
+Recommendation system that recommends movies similar to those the user likes based on content. Content-based filtering is one popular technique of recommendation or recommender systems. The content or attributes of the things you like are referred to as "content." 
 
 Check out the live demo: https://aditya-aryan123-streamlit-recommendationsystem-app-app-w4qqhu.streamlit.app/
 
@@ -13,7 +13,7 @@ Check out the live demo: https://aditya-aryan123-streamlit-recommendationsystem-
 
 ## Overview
 
-The movies are recommended based on the content of the movie you entered or selected. The main parameters that are considered for the recommendations are the genre, overview of the movie, top 10 casts, director, production companies, production countries, tagline, keywords and producer. The dataset was downloaded from Kaggle https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata. It was deployed on streamlit cloud.
+The movies are recommended based on the content of the movie you entered or selected. The main parameters that are considered for the recommendations are the genre, overview of the movie, top 10 casts, director, production companies, production countries, tagline, keywords and producer. The goal behind content-based filtering is to classify products with specific keywords, learn what the customer likes, look up those terms in the database, and then recommend similar things. In order to build our recommendation system, we have used the TMDB Dataset. You can find the movies.csv and credits.csv file that we have used in our Recommendation System Project here. The dataset was downloaded from Kaggle https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata. It was deployed on streamlit cloud.
 
 
 ## How to get the API key?
