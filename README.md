@@ -13,12 +13,13 @@ Check out the live demo: https://aditya-aryan123-streamlit-recommendationsystem-
 
 ## Overview
 
-The movies are recommended based on the content of the movie you entered or selected. The main parameters that are considered for the recommendations are the genre, overview of the movie, top 10 casts, director, production companies, production countries, tagline, keywords and producer. The goal behind content-based filtering is to classify products with specific keywords, learn what the customer likes, look up those terms in the database, and then recommend similar things. In order to build our recommendation system, we have used the TMDB Dataset. You can find the movies.csv and credits.csv file that we have used in our Recommendation System Project here. The dataset was downloaded from Kaggle https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata. It was deployed on streamlit cloud.
+The movies are recommended based on the content of the movie you entered or selected. The main parameters that are considered for the recommendations are the genre, overview of the movie, top 10 casts, director, production companies, production countries, tagline, keywords and producer. The goal behind content-based filtering is to classify products with specific keywords, learn what the customer likes, look up those terms in the database, and then recommend similar things. In order to build our recommendation system, we have used the TMDB Dataset. You can find the movies.csv and credits.csv file that we have used in our Recommendation System Project. The dataset was downloaded from Kaggle https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata. The final project was deployed on streamlit cloud
 
 
 ## File Structure
 
 app.py: It is the deployment file
+
 preprocessing.py: Preprocessing of raw, unstructured data to clean data
 
 
