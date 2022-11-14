@@ -13,7 +13,7 @@ Check out the live demo: https://aditya-aryan123-streamlit-recommendationsystem-
 
 ## Overview
 
-The movies are recommended based on the content of the movie you entered or selected. The main parameters that are considered for the recommendations are the genre, overview of the movie, top 10 casts, director, production companies, production countries, tagline, keywords and producer. The details of the movies, such as title, genre, runtime, rating, poster, casts, etc., are fetched from TMDB.
+The movies are recommended based on the content of the movie you entered or selected. The main parameters that are considered for the recommendations are the genre, overview of the movie, top 10 casts, director, production companies, production countries, tagline, keywords and producer. The dataset was downloaded from Kaggle https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata. It was deployed on streamlit cloud.
 
 
 ## How to get the API key?
