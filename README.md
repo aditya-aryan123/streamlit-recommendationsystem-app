@@ -34,7 +34,7 @@ Create an account in https://www.themoviedb.org/. Once you successfully created 
 2. Install all the libraries mentioned in the requirements.txt file with the command pip install -r requirements.txt
 3. Get your API key from https://www.themoviedb.org/.
 4. Replace YOUR_API_KEY in app.py file on line 22 and hit save.
-5. Open your terminal/command prompt from your project directory and run the file app.py by executing the command streamlit app.py and it'll automatically open in your browser.
+5. Open your terminal/command prompt from your project directory and run the file app.py by executing the command streamlit run app.py and it'll automatically open in your browser.
 
 
 ## TF-IDF Vectorizer:
